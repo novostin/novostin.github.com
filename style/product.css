@@ -5,6 +5,10 @@
     transition: all 0.2s;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
   }
+
+  .pricing .card {
+    border-radius: 2.6rem;
+  }
   
   .pricing hr {
     margin: 1.5rem 0;

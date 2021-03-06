@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon.ico">
+
+    <title>TipaMagazin</title>
+
+    <meta property="og:title" content="Rofl Pump | Магазин одежды" />
+    <meta name="description" content="Одежда с ебанутыми принтами, и не только." />
+    <meta name="robots" content="index, follow" />
 
     <link href="bootstrap/css/bootstrap-grid.min.css" rel="stylesheet">
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -19,8 +26,10 @@
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/button.info.css">  
     <link rel="stylesheet" href="style/navbar.css">
     <link rel="stylesheet" href="style/videoheader.css"> <!-- Видео фон -->
+    <link rel="stylesheet" href="style/priceholder.css">
 
     <style>
         body{
@@ -32,6 +41,10 @@
         .center-img {
         display: block;
         margin: 0 auto;
+        }
+        .zaglavnaya {
+        font-size: 38px;
+        font-weight: 500;
         }
     </style>
 
@@ -50,7 +63,7 @@
       <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-white">
-            <h1 class="display-3">Narko Pump</h1>
+            <h1 class="display-3">ROFL PUMP</h1>
             <p class="lead mb-0">Елитное шмотьё, для царей аутизма, и деградации</p>
           </div>
         </div>
@@ -61,76 +74,52 @@
       <div class="container h-100">
         <div class="d-flex h-100 text-center align-items-center">
           <div class="w-100 text-black">
-            <p>ЕСТЬ ТОЛЬКО БЕЛЫЙ И ЧЁРНЫЙ. ОСТАЛЬНОЕ - ОТТЕНКИ.</p>
+            <h6 class="zaglavnaya">НОВИНКИ</h6>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+    <!-- Блоки Одежды -->
 
 <section class="pricing py-5">
   <div class="container">
     <div class="row">
-      <!-- Free Tier -->
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Кладмен Мудак</h5>
-            <h6 class="card-price text-center">600<span class="period">/ UAH</span></h6>
-            <br>
-            <img src="product/kladmenmudak/kldmkbl.png" class="center-img" width="313" height="313" alt="lorem">
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Высокий шанс получить пизды от прохожих</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Уважение от местных наркоманов</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Шанс получить пизды от кладмена</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Весь женский пол, будет с ума от вас
 
-</li>
-            </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Подробнее</a>
-          </div>
-        </div>
-      </div>
-      <!-- Plus Tier -->
+      <!-- 1 -->
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
+          <div class="price category-product-price">
+            <div class="price-current blockchein text-center">600 UAH</div>
+          </div>
+          <br>
+          <br>
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Просил же в центре</h5>
-            <h6 class="card-price text-center">600<span class="period">/ UAH</span></h6>
+            <img src="product/kladmenmudak/kldmkbl.png" class="center-img" width="313" height="313" alt="lorem">
             <br>
-            <img src="product/prosylvcentre/2.png" class="center-img" width="313" height="313" alt="Фотография">
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Памп мудак</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Понимание со стороны прохожих</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Шанс получить пизды от цыганей</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Такую футболку носят только, альфа-самцы, которые рождены для секса</li>
-            </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Подробнее</a>
+            <a href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiI2MDAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0KTRg9GC0LHQvtC70LrQsCA6INCa0LvQsNC00LzQtdC9INCc0YPQtNCw0Log0JHQu9GP0LTRjC4iLCJwdWJsaWNfa2V5Ijoic2FuZGJveF9pMzQxMzk5NzYwODMiLCJsYW5ndWFnZSI6InJ1In0=&signature=LszsblBNRlB5GOw0HDIq619KAgg=" class="btn btn-block btn-primary text-uppercase"><span>Кладмен Мудак</span></a>
           </div>
         </div>
       </div>
-      <!-- Pro Tier -->
+
+      <!-- 2 -->
       <div class="col-lg-4">
-        <div class="card">
+        <div class="card mb-5 mb-lg-0">
+          <div class="price category-product-price">
+            <div class="price-current blockchein text-center">600 UAH</div>
+          </div>
+          <br>
+          <br>
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Сток</h5>
-            <h6 class="card-price text-center">~<span class="period">/ UAH</span></h6>
+            <img src="product/prosylvcentre/2.png" class="center-img" width="313" height="313" alt="Фотография">
             <br>
-            <img src="product/stock.png" class="center-img" width="313" height="313" alt="lorem">
-            <hr>
-            <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>~</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>~</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>~</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>~</li>
-            </ul>
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Подробнее</a>
+            <a href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXkiLCJhbW91bnQiOiI2MDAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0KTRg9GC0LHQvtC70LrQsCA6INCf0YDQvtGB0LjQuyDQttC1INCyINGG0LXQvdGC0YDQtSwg0LrQsNC60LjQtSDRj9C70YLRiy4iLCJwdWJsaWNfa2V5Ijoic2FuZGJveF9pMzQxMzk5NzYwODMiLCJsYW5ndWFnZSI6InJ1In0=&signature=oo0GttThMCDQXPj7Nmrr0EWNXM8=" class="btn btn-block btn-primary text-uppercase"><span>Просил в центре</span></a>
           </div>
         </div>
       </div>
+
+      <!-- Конец Блока -->
+
     </div>
   </div>
 </section>
@@ -139,7 +128,7 @@
 
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50" color="">
         <div class="container text-center">
-          <small>Copyright &copy; Your Website</small>
+          <small>Copyright &copy; 2020 - 2021 Rofl Pump. Всё права защищены. В случае вопросов, свяжитесь с поддержкой в Телеграмме : @roflpump </small>
         </div>
     </footer>
 </body>

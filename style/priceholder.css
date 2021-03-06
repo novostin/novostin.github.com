@@ -1,0 +1,24 @@
+.category-product-price.price {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.price-current {
+    z-index: 1;
+    padding: 0 1em;
+    background: #000;
+    color: #fff;
+    border-radius: 35px 1px 45px 3px;
+}
+
+.blockchein { 
+    width: 170px; /* Ширина блока */
+    padding: 5px; /* Поля */
+}
+

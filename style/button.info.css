@@ -1,0 +1,13 @@
+span {
+    font-size:12px;
+}
+a {
+    font-family: Futura,sans-serif;
+    src: url("/fonts/FuturaNewLight-Reg.ttf") format("ttf"),
+}
+a:hover span {
+    display:none;
+}
+a:hover:before {
+    content:"ПОДРОБНЕЕ";
+}
