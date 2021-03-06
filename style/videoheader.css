@@ -40,7 +40,7 @@ header {
   
   @media (pointer: coarse) and (hover: none) {
     header {
-      background: url('https://www.google.com.ua/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png') black no-repeat center center scroll;
+      background: url('https://github.com/novostin/novostin.github.com/blob/main/slider/slide.png?raw=true') black no-repeat center center scroll;
     }
     header video {
       display: none;
